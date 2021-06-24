@@ -1,0 +1,147 @@
+header h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 5%;
+	font-size: 200%;
+	word-spacing: 10px;
+	letter-spacing: 5px;
+}
+header p {
+	text-align: center;
+	font-family: sans-serif;
+}
+div.polaroid {
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+  	width: 60%;
+  	height: 87vh;
+  	background-color: white;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-bottom: 25px;
+}
+div.polaroid p.p1, div.polaroid2 p.p1 {
+  text-align: justify;
+  margin-right: 2%;
+}
+div.polaroid img {
+	width:100%;
+	height: 49vh;
+}
+div.container h2, div.container3 h2, div.container2 h2 {
+  	text-align: left;
+  	text-transform: uppercase;
+  	padding-left: 10px;
+  	padding-top: 15px;
+  	font-family: sans-serif;
+}
+div.container p, div.container3 p, div.container2 p {
+	text-align: left;
+	padding-left: 10px;
+	font-family: sans-serif;
+}
+div.container button, div.container2 button {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	border: 1px solid black;
+	cursor: pointer;
+	background-color: white;
+	font-family: sans-serif;
+	padding: 8px 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+div.container button:hover, div.container2 button:hover {
+	background-color: darkgray;
+}
+div.polaroid2 {
+	float: left;
+	margin-left: 5%;
+	margin-top: 1%;
+  	width: 60%;
+  	background-color: white;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-bottom: 25px;
+}
+div.polaroid3 {
+	float: right;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-left: 1%;
+  	width: 28%;
+  	height: 60vh;
+  	background-color: white;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-bottom: 25px;
+}
+div.polaroid4 {
+	float: right;
+	margin-right: 5%;
+	margin-left: 1%;
+  	width: 28%;
+  	margin-top: -12%;
+  	height: 60vh;
+  	background-color: white;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-bottom: 25px;
+}
+div.container4 img {
+	float: left;
+	width: 15%;
+	margin: 2% 4%;
+}
+div.container4 div.one, div.container4 div.two, div.container4 div.three, div.container4 div.four {
+	width: 100%;
+	height: 10vh;
+	float: left;
+	margin-bottom: 5%;
+}
+div.container4 div.one:hover, div.container4 div.two:hover, div.container4 div.three:hover, div.container4 div.four:hover {
+	background-color: lightgray;
+}
+div.polaroid5 {
+	float: right;
+	margin-right: 5%;
+	margin-left: 1%;
+  	width: 28%;
+  	height: 28vh;
+  	background-color: white;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	margin-bottom: 25px;
+}
+footer {
+	float: left;
+	background-color: gray;
+	margin-top: 5%;
+	margin-left: -1%;
+	width: 101.5%;
+	height: 30vh;
+}
+footer button.this {
+	background-color: black;
+	padding: 16px 32px;
+	font-family: sans-serif;
+	color: white;
+	margin-top: 3.5%;
+	border: none;
+	font-size: 18px;
+	cursor: pointer;
+}
+footer button.this:hover, footer button.that:hover {
+	color: black;
+	background-color: lightgray;
+}
+footer button.that {
+	background-color: black;
+	opacity: 0.5;
+	padding: 16px 32px;
+	font-family: sans-serif;
+	color: white;
+	margin-top: 3.5%;
+	margin-left: 2%;
+	border: none;
+	font-size: 18px;
+	cursor: not-allowed;
+}
