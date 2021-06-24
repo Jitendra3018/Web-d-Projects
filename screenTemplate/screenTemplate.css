@@ -1,0 +1,204 @@
+header {
+	background-color: black;
+	color: white;
+	float: left;
+	margin-left: 5%;
+	width: 45%;
+	height: 90vh;
+	margin-top: -1%;
+}
+header p {
+	font-size: 40px;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 5%;
+	margin-bottom: 35%;
+}
+header nav a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 5%;
+	line-height: 300%;
+}
+header nav a.h:hover {
+	background-color: magenta;
+}
+header nav a.m:hover {
+	background-color: cyan;
+}
+header nav a.r:hover {
+	background-color: #00cccc;
+}
+header nav a.c:hover {
+	background-color: #990099;
+}
+section.one {
+	background-color: #00cccc;
+	color: white;
+	float: right;
+	margin-right: 5%;
+	width: 45%;
+	height: 90vh;
+	margin-top: -1%;
+}
+section.one p.p, section.two p.p, section.four p.p{
+	font-size: 40px;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 5%;
+	margin-bottom: 10%;
+}
+section.one img {
+	width: 40%;
+	border-radius: 50%;
+	margin-left: 30%;
+}
+section.two {
+	background-color: lightgray;
+	float: left;
+	margin-left: 5%;
+	width: 45%;
+	height: 100vh;
+}
+section.two img.i {
+	margin-top: 5%;
+}
+section.three {
+	background-color: #003153;
+	float: right;
+	margin-right: 5%;
+	width: 45%;
+	height: 100vh;
+}
+section.three p.p {
+	font-size: 40px;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 5%;
+	color: white;
+}
+table {
+	color: white;
+	width: 100%;
+	margin-right: 15%;
+	font-family: sans-serif;
+	margin-top: 5%;
+}
+th, td {
+	line-height: 200%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+tr:nth-child(even) {
+	background-color: white;
+	color: black;
+}
+section.four {
+	background-color: gray;
+	float: left;
+	margin-left: 5%;
+	width: 45%;
+	height: 90vh;
+	color: white;
+}
+section.five {
+	background-color: darkgreen;
+	float: right;
+	margin-right: 5%;
+	width: 45%;
+	height: 90vh;
+	color: white;
+}
+section.five p.p {
+	font-size: 40px;
+	font-family: sans-serif;
+	text-align: left;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+form {
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 50vh;
+	line-height: 200%;
+}
+input {
+	width: 90%;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	margin-left: 5%;
+}
+button {
+	background-color: darkgreen;
+	font-size: 18px;
+	font-family: sans-serif;
+	padding: 8px 16px;
+	border: none;
+	margin-left: 82.5%;
+	margin-top: 2%;
+	color: white;
+	cursor: pointer;
+}
+button:hover {
+	color: black;
+	background-color: lightgray;
+}
+footer {
+	float: left;
+	background-color: black;
+	color: white;
+	margin-left: 5%;
+	width: 87.8%;
+	padding: 32px 16px;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+footer a {
+	color: white;
+}
+@media screen and (max-width: 800px) {
+	header, section.two, section.four {
+		float: left;
+		margin-left: -1%;
+		width: 51%;
+	}
+	section.one, section.three, section.five {
+		width: 51%;
+		float: right;
+		margin-right: -1%;
+	}
+	section.one img {
+		width: 50%;
+		margin-left: 25%;
+	}
+	section.one p.p2 {
+		padding-top: 10%;
+	}
+	section.two img.i {
+		margin-top: 20%;
+	}
+	table {
+		text-align: center;
+		margin-top: 20%;
+	}
+	form {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	button {
+		margin-left: 70%;
+		margin-top: 5%;
+	}
+	footer {
+		float: left;
+		margin-left: -1%;
+		width: 97.5%;
+	}
+}
