@@ -1,0 +1,58 @@
+body {
+	background-color: darkgray;
+	margin: 2%;
+}
+header {
+	background-image: linear-gradient(to right, blueviolet, violet);
+	font-family: sans-serif;
+	color: white;
+	padding: 10px 0 5px 10px;
+}
+section.first {
+	margin-left: 2%;
+	margin-top: 1%;
+	float: left;
+	width: 20%;
+	
+}
+section.first p {
+	background-image: linear-gradient(to right, indigo, lightblue);
+	opacity: 0.6;
+	font-family: sans-serif;
+	padding: 8px 0 2px 8px;
+	color: white;
+}
+section.first p:hover {
+	opacity: 1;
+}
+div {
+	font-family: sans-serif;
+	max-width: 45%;
+	margin-top: 2%;
+	margin-left: 5%;
+	float: left;
+}
+section.second {
+	background-image: linear-gradient(to right, indigo, lightblue);
+	float: right;
+	margin-top: 1%;
+	margin-right: 2%;
+	text-align: center;
+	font-family: sans-serif;
+	height: 400px;
+	width: 20%;
+}
+section.second h2 {
+	margin-top: 10%;
+}
+section.second p {
+	margin: 0 2% 2% 4%;
+}
+footer {
+	text-align: center;
+	background-image: linear-gradient(to right, blueviolet, violet);
+	padding: 25px 0;
+	width: 100%;
+	float: left;
+	margin-top: 1%;
+}
